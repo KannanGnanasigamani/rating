@@ -1,0 +1,119 @@
+header {
+    align-items: center;
+    background-color: #563d7c;
+    color: #cbbde7;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: .25rem;
+}
+
+#loader {
+    margin-top: 10px;
+}
+
+.loading {
+    background: aliceblue url("../images/ajax-loader.gif") 5px center no-repeat;
+    border: 1px solid #2780e3;
+    color: #2780e3;
+    font-size: 120%;
+    padding: 15px 55px;
+}
+
+.border-bottom {
+    border-bottom: solid 1px;
+}
+
+.table thead {
+    background-color: #2780e3;
+    color: white;
+}
+
+.validation-popover {
+    background: #f2dede;
+}
+
+.popover.right.validation-popover > .arrow:after {
+    border-right-color: #f2dede;
+}
+
+.popover.top.validation-popover > .arrow:after {
+    border-top-color: #f2dede;
+}
+
+.popover.bottom.validation-popover > .arrow:after {
+    border-bottom-color: #f2dede;
+}
+
+.popover.left.validation-popover > .arrow:after {
+    border-left-color: #f2dede;
+}
+
+
+
+.table-bordered {
+    border: 3px solid #eee;
+}
+
+.table-responsive {
+    margin-bottom: 20px;
+}
+
+.table-responsive table {
+    margin-bottom: 0;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: aliceblue;
+}
+
+.panel-title,
+.modal-title {
+    color: #2780e3;
+    font-weight: bold;
+    padding: 5px;
+}
+
+label.mini-label {
+    color: #2780e3;
+    font-size: 70%;
+    font-weight: 100;
+    margin: 0 0 0 2px;
+}
+
+.bootstrap-select > .dropdown-toggle {
+    font-size: 100%;
+    letter-spacing: 0;
+    padding: 8px 5px;
+}
+
+.btn-secondary.active,
+.btn-secondary:hover {
+     background-color: #2780e3;
+     color: white;
+}
+
+.btn {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.btn-secondary,
+.btn-secondary:focus {
+     background: white;
+     border-color: #2780e3;
+     color: #2780e3;
+}
+
+.glyphicon {
+    padding-top : 3px;
+}
+
+
+
+
